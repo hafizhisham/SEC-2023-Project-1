@@ -6,9 +6,9 @@
 
   /*----- Colors -----*/
   /*----- Change favorite color -----*/
-  --hue-color: 190; /*-- Purple 250 - Green 142 - Blue 230 - Pink 340 --*/
+  --hue-color: 190; /*-- Hue Color --*/
 
-  /*----- HSL color mode -----*/
+  /*----- HSL color mode [HSL (hue, saturation, lightness)]-----*/
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -84,7 +84,6 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
   color: var(--text-color);
   background: linear-gradient(
     90deg,
